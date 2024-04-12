@@ -8,7 +8,9 @@ const styles = StyleSheet.create({
   },
   buttonContainer: {
     backgroundColor: "#fff",
-    alignSelf: "flex-end",
+    flexDirection: "row",
+    justifyContent: "space-around",
+    paddingVertical: 10,
   },
   preview: {
     alignSelf: "stretch",
